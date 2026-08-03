@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
         theme: ThemeData(
-            colorSchemeSeed: Colors.blue
+            colorSchemeSeed: Colors.blue,
+          fontFamily: "poppins"
         ),
         home: HomePage()
     );
